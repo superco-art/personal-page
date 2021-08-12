@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+.home, .projects {
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*About style*/
+.about {
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+}
+    p{
+        font-size: medium;
+        margin: 0 5rem;
+    }
+/*Home style*/
+
+.profile-img {
+    border-radius: 50%;
+    height: 50vh;
+    border: #90ac58 1px;
+    margin-top: 50px;
+
+ }
+.link-icons {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3px;
+    cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
