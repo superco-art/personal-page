@@ -1,0 +1,11 @@
+.contact{
+    background-image: url("../images/yellowroz.png" );
+    height:90vh;
+    width: 100%;
+    background-size: contain;
+    color: #bb052fe0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
