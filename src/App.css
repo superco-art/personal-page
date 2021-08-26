@@ -15,16 +15,33 @@
 
 /*About style*/
 .about {
+    font-family: monospace;
+    min-height: 100vh;
+    color: #232d36;
+    background-color: #fde311;
+    padding: 6vh;
     display: flex;
-    height: 60vh;
     flex-direction: column;
     align-items: center;
-    font-size: 2rem;
+    font-size: 3rem;
+    /*height: 60vh;*/
 }
-    p{
-        font-size: medium;
-        margin: 0 5rem;
-    }
+.typical p{
+    font-size: 2rem;
+    font-family: monospace;
+
+}
+
+.story-description p{
+    padding: 6vh;
+    font-size: 1rem;
+    font-family: monospace;
+    margin: 0 5rem;
+    color: #232d36;
+    letter-spacing: 1px;
+}
+
+
 /*Home style*/
 
 .profile-img {
