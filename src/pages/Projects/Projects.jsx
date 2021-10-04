@@ -6,7 +6,7 @@ export const Projects = () => {
         <div className="background-projects">
             <div className={"background-creioane"} >
                 <div className="projects">
-                <h1> Welcome to my page</h1>
+                <h1> Page under construction. Soon to be updated:)</h1>
                 </div>
             </div>
         </div>

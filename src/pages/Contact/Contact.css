@@ -9,3 +9,9 @@
     bottom: 0;
     right: 0;
 }
+h1 {
+  font-family: monospace;
+    color: gold;
+    display: flex;
+    justify-content: center;
+}

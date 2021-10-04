@@ -5,7 +5,7 @@ export const Contact = () => {
     return (
         <div className="contact">
             <div className={"background-contact"}>
-            <h1> Welcome to my page</h1>
+            <h1> Page under construction. Soon to be updated:)</h1>
             </div>
         </div>
     )

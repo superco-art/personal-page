@@ -23,7 +23,7 @@ export const Home = () => {
             </IconContext.Provider>
 
             <h6>Junior Full Stack Developer</h6>
-            <p> Welcome to my page</p>
+            <p> Page under construction. Soon to be updated:)</p>
         </div>
 
     )
