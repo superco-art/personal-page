@@ -1,5 +1,5 @@
 .contact{
-    background-image: url("../images/yellowroz.png" );
+    background-image: url("../images/yellowall.png" );
     height:90vh;
     width: 100%;
     background-size: contain;
@@ -9,9 +9,133 @@
     bottom: 0;
     right: 0;
 }
-h1 {
-  font-family: monospace;
-    color: gold;
+.formContact {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-family: monospace;
+    top: 10%;
+    left: 10%;
+    width: 70%;
+    height: 50vh;
+    border-radius: 1rem;
+    padding: 4rem 2rem;
+
+}
+.labelName {
+    width: 80%;
+    top:0;
+    left: 0;
+    margin-bottom: 10px;
+   font-size: 20px;
+    color: darkred;
+    border: 2px solid #bb052fe0;
+    border-radius: .5rem;
+    outline:none;
+    padding: 1rem;
+    background: none;
+    box-shadow: 0 10px 15px rgb(128,0,32);
+
+}
+input[type="text"] {
+    border-bottom: 1px solid crimson;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 10px;
+    width: 90%;
+    font-size: 20px;
+    height: 30%;
+    color: crimson;
+    font-family: monospace;
+    outline: none;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+.labelEmail {
+    width: 80%;
+    top:0;
+    left: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: darkred;
+    border: 2px solid #bb052fe0;
+    border-radius: .5rem;
+    outline:none;
+    padding: 1rem;
+    background: none;
+    box-shadow: 0 10px 36px rgb(128,0,32);
+}
+input[type="email"] {
+    border-bottom: 1px solid crimson;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 10px;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    width: 90%;
+    font-size: 20px;
+    height: 30%;
+    color: crimson;
+    font-family: monospace;
+    outline: none;
+}
+.labelMessage {
+    width: 80%;
+    height: 20%;
+    top:0;
+    left: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: darkred;
+    border: 2px solid #bb052fe0;
+    border-radius: .5rem;
+    outline:none;
+    padding: 1rem;
+    background: none;
+    box-shadow: 0 10px 36px rgb(128,0,32);
+}
+textarea{
+    border-bottom: 1px solid crimson;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 10px;
+    width: 90%;
+    font-size: 20px;
+    height: 50%;
+    color: crimson;
+    font-family: monospace;
+    outline: none;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+.sendButton {
+    display: block;
+    margin-left: auto;
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    background-color: crimson;
+    color: #fde311;
+    font-size: 20px;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 3s;
+}
+.sendButton:hover{
+    box-shadow: 0 10px 36px rgb(128,0,32);
+}
+input[type="submit"] {
+    background: transparent;
+    border: none;
+    font-family: monospace;
+    font-size: 20px;
+    color: gold;
 }
